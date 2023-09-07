@@ -1,0 +1,281 @@
+/* ----------------------------
+ Default Styling
+ ---------------------------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: black;
+    font-family: "Piazzolla", "Times New Roman", "YuMincho",
+    "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+}
+
+h1 {
+    color: #400101;
+    padding-left: 2.0rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    font-weight:700;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #400101;
+    padding-top: 1.8rem;
+    padding-left: 2.0rem;
+    padding-bottom: 0;
+    line-height: 0.5rem;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+p {
+    line-height: 1.8rem;
+    color: #400101
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* contact */
+.contact-main h1 {
+    padding-top: 2.0rem;
+    margin-bottom: 0px;
+}
+#contact-h2 {
+    padding-top: 1.6rem;
+    margin-top: 0px;
+}
+#contact-div {
+    padding-top: 2.2rem;
+}
+
+/* --------------------------------------
+  Header
+-------------------------------------- */
+header {
+    position: fixed;
+    z-index: 2;
+    background: linear-gradient(to right, rgba(253, 159, 18, 0.95), rgba(188, 115, 6, 1));
+    width: 100%;
+}
+.header-logo {
+    margin-top: 0.6rem;
+    margin-bottom: 1.2rem;
+}
+
+.site-menu.is-show {
+    display: block;
+}
+.site-menu ul{
+    color: #400101;
+}
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+/* --------------------------------------
+  Main
+-------------------------------------- */
+
+main {
+    display: block;
+    padding-top: 120px;
+}
+/* index */
+.home-main > p {
+    color: #870D0D;
+    font-size: 1.3rem;
+    line-height: 2.0em;
+    padding-top: 2.0rem;
+    padding-left: 5.0rem;
+    padding-bottom: 5rem;
+}
+.home-h2 {
+    padding-top: 1.5rem;
+}
+
+/* shops */
+.map-p {
+    padding-top: 0.5rem;
+    line-height: 1.0rem;
+}
+
+/* main - background image  */
+.home-main {
+    background-image: url("../images/washi02.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+/* main - background color  */
+.lineup-main,.shops-main,.contact-main {
+    background-color: rgba(188, 115, 6, 0.28);
+}
+/* lineup */
+.lineup-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.lineup-items li {
+    padding-right: 5.0rem;
+}
+
+/* contact */
+#contact-p, #contact-tel02 {
+    margin-left: 2.0rem;
+}
+#contact-h1 {
+    padding-top: 3.0rem;
+    padding-bottom: 0rem;
+}
+.contact-main h2 {
+    padding-top: 3.0rem;
+}
+
+.contact-main li:last-child {
+    padding-bottom: 4.0rem;
+}
+
+/* image */
+/*   index */
+#home-img01 {
+    clip-path: ellipse(50% 50%);
+    width: 465px;
+    height: 253px;
+    flex-shrink: 0;
+}
+#home-img02 {
+    clip-path: ellipse(50% 50%);
+    width: 465px;
+    height: 253px;
+    flex-shrink: 0;
+}
+#home-img03 {
+    width: 100%;
+    flex-shrink: 0;
+    margin-top: 4.0rem;
+    margin-bottom: 0rem;
+
+}
+
+/*   lineup */
+.lineup-items img {
+    clip-path: ellipse(50% 50%);
+    width: 300px;
+    height: 200px;
+    flex-shrink: 0;
+    margin-bottom: 2.0rem;
+}
+
+/*   shops */
+.shops-img {
+    clip-path: ellipse(50% 50%);
+    width: 262px;
+    height: 118px;
+    flex-shrink: 0;
+}
+
+/*   contact */
+#contact-tel {
+    clip-path: ellipse(50% 50%);
+    width: 187px;
+    height: 139px;
+    flex-shrink: 0;
+}
+#contact-img01 {
+    clip-path: ellipse(50% 50%);
+    width: 246px;
+    height: 124px;
+    flex-shrink: 0;
+}
+#contact-img02 {
+    clip-path: ellipse(50% 50%);
+    width: 246px;
+    height: 124px;
+    flex-shrink: 0;
+}
+#contact-img03 {
+    clip-path: ellipse(50% 50%);
+    width: 199px;
+    height: 100px;
+    flex-shrink: 0;
+}
+#contact-img04 {
+    clip-path: ellipse(50% 50%);
+    width: 199px;
+    height: 100px;
+    flex-shrink: 0;
+}
+#contact-img05 {
+    clip-path: ellipse(50% 50%);
+    width: 199px;
+    height: 100px;
+    flex-shrink: 0;
+}
+#contact-img06 {
+    clip-path: ellipse(50% 50%);
+    width: 199px;
+    height: 100px;
+    flex-shrink: 0;
+}
+#contact-img07 {
+    clip-path: ellipse(50% 50%);
+    width: 199px;
+    height: 100px;
+    flex-shrink: 0;
+}
+#contact-img08 {
+    clip-path: ellipse(50% 50%);
+    width: 199px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+/* --------------------------------------
+  Footer
+-------------------------------------- */
+footer {
+    background-color: #421407;
+}
+
+.footer-logo {
+    margin-top: 1.0rem;
+}
+
+.footer-inner {
+    display: flex;
+    flex-direction: row;
+}
+footer ul {
+    color:#FFFBFB;
+}
+
+.footer-nav a:hover,
+.footer-nav a:focus {
+    color: rgba(78, 74, 74, 0.76);
+}
+.footer-copy {
+    text-align: center;
+    color:#FFFBFB;
+}
+
+
+

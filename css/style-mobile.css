@@ -1,0 +1,70 @@
+/* --------------------------------------
+  Mobile Styling
+-------------------------------------- */
+    /* --------------------------------------
+      Header
+    -------------------------------------- */
+.header-inner2 ul {
+    display: none;
+}
+button {
+    margin-left: 200px;
+}
+.header-inner2 ul {
+    display: none;
+}
+
+.toggle-menu-button {
+    display: block;
+    width: 44px;
+    height: 34px;
+    background-image: url(../images/icon-menu.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+.site-menu {
+    display: none;
+}
+.site-menu {
+    padding-left: 10rem;
+}
+/* --------------------------------------
+  Main
+-------------------------------------- */
+/* contact */
+#contact-tel01 {
+    display: block;
+}
+#contact-tel01 img {
+    margin-left: 3.0rem;
+}
+
+/* shops */
+.shops li {
+    display: block;
+}
+.shops-img {
+    margin-bottom: 5px;
+}
+.map {
+    width:300px; height: 300px;
+}
+
+/* --------------------------------------
+  Footer
+-------------------------------------- */
+.footer-nav ul {
+    display: block;
+}
+
+.footer-nav ul li {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
