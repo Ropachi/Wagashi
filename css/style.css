@@ -1,5 +1,5 @@
 /* ----------------------------
- Default Styling
+ Default Styling  Check
  ---------------------------- */
 
 html {
@@ -56,11 +56,11 @@ a {
 /* contact */
 .contact-main h1 {
     padding-top: 2.0rem;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 #contact-h2 {
     padding-top: 1.6rem;
-    margin-top: 0px;
+    margin-top: 0;
 }
 #contact-div {
     padding-top: 2.2rem;
@@ -137,7 +137,7 @@ main {
 }
 #contact-h1 {
     padding-top: 3.0rem;
-    padding-bottom: 0rem;
+    padding-bottom: 0;
 }
 .contact-main h2 {
     padding-top: 3.0rem;
@@ -164,7 +164,7 @@ main {
     width: 100%;
     flex-shrink: 0;
     margin-top: 4.0rem;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
 
 }
 
