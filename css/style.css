@@ -99,7 +99,6 @@ main {
     display: block;
     padding-top: 120px;
 }
-/* index */
 .home-main > p {
     color: #870D0D;
     font-size: 1.3rem;
@@ -110,12 +109,6 @@ main {
 }
 .home-h2 {
     padding-top: 1.5rem;
-}
-
-/* shops */
-.map-p {
-    padding-top: 0.5rem;
-    line-height: 1.0rem;
 }
 
 /* main - background image  */
@@ -129,7 +122,7 @@ main {
 .lineup-main,.shops-main,.contact-main {
     background-color: rgba(188, 115, 6, 0.28);
 }
-/* lineup */
+/* lineupページ */
 .lineup-items {
     display: flex;
     flex-wrap: wrap;
@@ -138,7 +131,7 @@ main {
     padding-right: 5.0rem;
 }
 
-/* contact */
+/* contactページ */
 #contact-p, #contact-tel02 {
     margin-left: 2.0rem;
 }
@@ -154,8 +147,7 @@ main {
     padding-bottom: 4.0rem;
 }
 
-/* image */
-/*   index */
+/*   indexページ */
 #home-img01 {
     clip-path: ellipse(50% 50%);
     width: 465px;
@@ -176,7 +168,7 @@ main {
 
 }
 
-/*   lineup */
+/*   lineupページ */
 .lineup-items img {
     clip-path: ellipse(50% 50%);
     width: 300px;
@@ -185,7 +177,11 @@ main {
     margin-bottom: 2.0rem;
 }
 
-/*   shops */
+/*   shopsページ */
+.map-p {
+    padding-top: 0.5rem;
+    line-height: 1.0rem;
+}
 .shops-img {
     clip-path: ellipse(50% 50%);
     width: 262px;
@@ -193,7 +189,7 @@ main {
     flex-shrink: 0;
 }
 
-/*   contact */
+/*   contactページ */
 #contact-tel {
     clip-path: ellipse(50% 50%);
     width: 187px;
