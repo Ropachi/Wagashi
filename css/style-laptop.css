@@ -1,69 +1,70 @@
 /* --------------------------------------
   Laptop Styling
 -------------------------------------- */
-@media screen and (min-width: 64em) {
 
-    /* --------------------------------------
-      Header
-    -------------------------------------- */
-    .toggle-menu-button {
-        display: none;
-    }
-    .site-menu {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-    }
-    .site-menu ul {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .site-menu ul li {
-        margin-top:  50px;
-        margin-left:  20px;
-        margin-right: 20px;
-    }
-    .site-menu ul li a:hover,
-    .site-menu ul li a:focus {
-        color: rgba(78, 74, 74, 0.76);
-    }
-
-    .header-inner {
-        display: flex;
-        flex-direction: row;
-    }
-
-    /* --------------------------------------
-      Main
-    -------------------------------------- */
-    /* contact */
-    #contact-tel01 {
-        display: flex;
-    }
-    #contact-tel01 img {
-        margin-left: 5.0rem;
-    }
-
-    /* shops */
-    .shops-img {
-        margin-bottom: 80px;
-    }
-    .map {
-        width:300px; height: 300px;
-        padding-top: 80px;
-        padding-left: 80px;
-    }
-    .shops li {
-        display: flex;
-    }
-
-    /* --------------------------------------
-      Footer
-    -------------------------------------- */
-    .footer-nav ul {
-        display: flex;
-        margin-top: 1.5rem;
-        margin-left: 200px;
-    }
+/* --------------------------------------
+  Header
+-------------------------------------- */
+.header-inner {
+    display: flex;
+    flex-direction: row;
 }
+.site-menu ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.site-menu ul li {
+    margin-top:  50px;
+    margin-left:  20px;
+    margin-right: 20px;
+}
+
+/* --------------------------------------
+  Main
+-------------------------------------- */
+/* contact */
+#contact-tel01 {
+    display: flex;
+}
+#contact-tel01 img {
+    margin-left: 5.0rem;
+}
+
+/* shops */
+.shops-img {
+    margin-bottom: 80px;
+}
+.map {
+    width:300px; height: 300px;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.shops li {
+    display: flex;
+}
+
+/* --------------------------------------
+  Footer
+-------------------------------------- */
+.footer-inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-nav ul {
+    display: flex;
+    font-size: 13px;
+    margin-top: 1.5rem;
+    margin-left: 200px;
+}
+
+.footer-nav li {
+    font-size: 13px;
+    margin-right: 14px;
+}
+.footer-logo img{
+    width: 90px;
+}
+

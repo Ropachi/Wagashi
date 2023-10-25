@@ -1,70 +1,68 @@
 /* --------------------------------------
   Mobile Styling
 -------------------------------------- */
+@media screen and (max-width: 48em) {
+
     /* --------------------------------------
       Header
     -------------------------------------- */
-.header-inner2 ul {
-    display: none;
-}
-button {
-    margin-left: 200px;
-}
-.header-inner2 ul {
-    display: none;
-}
+    .header-inner {
+        display: flex;
+        flex-direction: row;
+    }
+    .site-menu ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        font-size: 13px;
+    }
 
-.toggle-menu-button {
-    display: block;
-    width: 44px;
-    height: 34px;
-    background-image: url(../images/icon-menu.png);
-    background-size: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    border: none;
-    border-radius: 0;
-    outline: none;
-}
-.site-menu {
-    display: none;
-}
-.site-menu {
-    padding-left: 10rem;
-}
-/* --------------------------------------
-  Main
--------------------------------------- */
-/* contact */
-#contact-tel01 {
-    display: block;
-}
-#contact-tel01 img {
-    margin-left: 3.0rem;
-}
+    .site-menu ul li {
+        margin-top:  40px;
+        margin-left:  5px;
+        margin-right: 5px;
+    }
 
-/* shops */
-.shops li {
-    display: block;
-}
-.shops-img {
-    margin-bottom: 5px;
-}
-.map {
-    width:300px; height: 300px;
-}
 
-/* --------------------------------------
-  Footer
--------------------------------------- */
-.footer-nav ul {
-    display: block;
-}
+    /* --------------------------------------
+      Main
+    -------------------------------------- */
+    /* contact */
+    #contact-tel01 {
+        display: block;
+    }
 
-.footer-nav ul li {
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 5px;
-}
+    #contact-tel01 img {
+        margin-left: 3.0rem;
+    }
 
+    /* shops */
+    .shops li {
+        display: block;
+    }
+
+    .shops-img {
+        margin-bottom: 5px;
+    }
+
+    .map {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* --------------------------------------
+      Footer
+    -------------------------------------- */
+    .footer-nav ul{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .footer-nav li {
+        font-size: 11px;
+    }
+    .footer-logo {
+        width: 60px;
+    }
+
+}

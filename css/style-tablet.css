@@ -1,37 +1,28 @@
 /* --------------------------------------
   Tablet Styling
 -------------------------------------- */
-@media screen and (min-width: 48em) {
+@media screen and (max-width: 64em) {
+
 
 /* --------------------------------------
   Header
 -------------------------------------- */
-    .toggle-menu-button {
-        display: none;
-    }
-    .site-menu {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-    }
-    .site-menu ul {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .site-menu ul li {
-        margin-top:  50px;
-        margin-left:  0px;
-        margin-right: 20px;
-    }
-    .site-menu ul li a:hover,
-    .site-menu ul li a:focus {
-        color: rgba(78, 74, 74, 0.76);
-    }
     .header-inner {
         display: flex;
         flex-direction: row;
     }
+    .site-menu ul {
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+    }
+
+    .site-menu ul li {
+        margin-top:  40px;
+        margin-left:  8px;
+        margin-right: 8px;
+    }
+
 
     /* --------------------------------------
       Main
@@ -60,9 +51,16 @@
     /* --------------------------------------
       Footer
     -------------------------------------- */
-    .footer-nav ul {
+
+    .footer-nav ul{
         display: flex;
-        margin-top: 1.5rem;
-        margin-left: 200px;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .footer-nav li {
+        font-size: 12px;
+    }
+    .footer-logo {
+        width: 70px;
     }
 }
